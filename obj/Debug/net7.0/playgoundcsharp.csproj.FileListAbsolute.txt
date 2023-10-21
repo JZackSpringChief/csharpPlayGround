@@ -1,0 +1,14 @@
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/bin/Debug/net7.0/playgoundcsharp
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/bin/Debug/net7.0/playgoundcsharp.deps.json
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/bin/Debug/net7.0/playgoundcsharp.runtimeconfig.json
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/bin/Debug/net7.0/playgoundcsharp.dll
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/bin/Debug/net7.0/playgoundcsharp.pdb
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/playgoundcsharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/playgoundcsharp.AssemblyInfoInputs.cache
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/playgoundcsharp.AssemblyInfo.cs
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/playgoundcsharp.csproj.CoreCompileInputs.cache
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/playgoundcsharp.dll
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/refint/playgoundcsharp.dll
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/playgoundcsharp.pdb
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/playgoundcsharp.genruntimeconfig.cache
+/Users/zackspringchief/Documents/Csharp/playgoundcsharp/obj/Debug/net7.0/ref/playgoundcsharp.dll
