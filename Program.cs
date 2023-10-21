@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace FireEmblem
+﻿namespace FireEmblem
 {
-   public class Unit 
+    public class Unit 
     {
         public string name = "Clark";
         public static void Main(string[] args)
