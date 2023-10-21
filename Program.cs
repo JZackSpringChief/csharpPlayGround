@@ -1,10 +1,14 @@
 ﻿using System;
-public class Unit 
+
+namespace FireEmblem;
 {
-   public string name = "Clark";
-    public static void Main(string[] args)
+    public class Unit 
     {
-       Unit Hero = new Unit();
-       Console.WriteLine(Hero.name);
-    }   
+        string name = "Clark";
+        static void Main(string[] args)
+        {
+            Unit Hero = new Unit();
+            Console.WriteLine(Hero.name);
+        }   
+    }
 }
