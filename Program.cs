@@ -24,7 +24,10 @@
             public void LevelUp() {
                 level++;
             }
-
+            private int status = 0;
+            private void Romance(int n) {
+                status += n;
+            }
         }  
         static void Main(string[] args)
         {
