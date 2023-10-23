@@ -22,7 +22,7 @@
                 int dmg = magic - res;
             }
             public void LevelUp() {
-                int levelup = level + 1;
+                level++;
             }
 
         }  
