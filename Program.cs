@@ -1,12 +1,14 @@
 ﻿namespace FireEmblem
 {
-    public class Unit 
+    class Program 
     {
-        public string name = "Clark";
-        public static void Main(string[] args)
+        class Unit {
+            public string name = "Clark";
+        }  
+     public static void Main(string[] args)
         {
             Unit Hero = new();
             Console.WriteLine(Hero.name);
-        }   
+        }  
     }
 }
