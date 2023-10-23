@@ -62,9 +62,12 @@
         {
             // Unit Hero = new("Zack", 23, 1, 8, 2, 10, 9, 3, 12);
             // Console.WriteLine(Hero.getname());
+            Console.WriteLine("enter your name");
+            
             Unit Hero = new();
             
-            Hero.name = "Zack";
+            // Hero.name = "Zack";
+            Hero.name = Console.ReadLine();
             Hero.level = 1;
             Console.WriteLine(Hero.name);
             Hero.Attack();
