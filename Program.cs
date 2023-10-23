@@ -48,9 +48,15 @@
              // public void relationshipdown(int n) {
 
             // } //implement to affect romance;
-            private void Romance(int n) {
-                status += n;
+            private int romance;
+            public int Romance
+            {
+                get { return romance;}
+                set { romance = value; }
             }
+            // private void Romance(int n) {
+            //     status += n;
+            // }
         }  
         static void Main(string[] args)
         {
