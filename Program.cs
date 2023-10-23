@@ -4,15 +4,15 @@
     {
         class Unit 
         {
-            public string name;
-            public int hitpoints;
-            public int level;
-            public int attack;
-            public int magic;
-            public int skill;
-            public int def;
-            public int res;
-            public int speed;
+            public string? name;
+            public int? hitpoints;
+            public int? level;
+            public int? attack;
+            public int? magic;
+            public int? skill;
+            public int? def;
+            public int? res;
+            public int? speed;
 
             // public Unit (string Name, int HitPoints, int Level, int Attack, int Magic, int Skill, int Def, int Res, int Speed)
             // {
@@ -26,17 +26,17 @@
             //     Res = res;
             //     Speed = speed;
             // }
-            public string getname ()
-            {
-                return name;
-            }
+            // public string getname ()
+            // {
+            //     return name;
+            // }
             public void Attack() {
                 Console.WriteLine("Attacking!!!");
-                int dmg = attack - def;
+                int dmg = (int)(attack - def);
             }
             public void FMagicAttack(){
                 Console.WriteLine("Fire!!!");
-                int dmg = magic - res;
+                int dmg = (int)(magic - res);
             }
             public void LevelUp() {
                 level++;
