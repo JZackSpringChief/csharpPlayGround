@@ -3,12 +3,17 @@
     class Program 
     {
         class Unit {
-            public string name = "Clark";
+            public string? name;
+            public void Attack() {
+                Console.WriteLine("Attacking!!!");
+            }
         }  
      public static void Main(string[] args)
         {
             Unit Hero = new();
-            Console.WriteLine(Hero.name);
+            // Hero.name = "Zack";
+            // Console.WriteLine(name);
+            Hero.Attack();
         }  
     }
 }
