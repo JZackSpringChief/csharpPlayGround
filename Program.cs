@@ -24,7 +24,7 @@
             public void LevelUp() {
                 level++;
             }
-            private int status = 0;
+            private int status = 0; // encapsulatin to hide data.
             // public void relationshipup(int n) {
 
             // }
