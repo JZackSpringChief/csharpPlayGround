@@ -25,6 +25,12 @@
                 level++;
             }
             private int status = 0;
+            // public void relationshipup(int n) {
+
+            // }
+             // public void relationshipdown(int n) {
+
+            // } //implement to affect romance;
             private void Romance(int n) {
                 status += n;
             }
