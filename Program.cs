@@ -6,6 +6,7 @@
         {
             public string name;
             public int hitpoints;
+            public int level;
             public int attack;
             public int magic;
             public int skill;
@@ -15,12 +16,13 @@
             public void Attack() {
                 Console.WriteLine("Attacking!!!");
                 int dmg = attack - def;
-                return dmg;
             }
             public void FMagicAttack(){
                 Console.WriteLine("Fire!!!");
                 int dmg = magic - res;
-                return dmg;
+            }
+            public void LevelUp() {
+                int levelup = level + 1;
             }
 
         }  
@@ -28,7 +30,7 @@
         {
             Unit Hero = new();
             Hero.name = "Zack";
-            Hero.age = 33;
+            Hero.level = 1;
             Console.WriteLine(Hero.name);
             Hero.Attack();
         }  
